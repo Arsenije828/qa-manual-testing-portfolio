@@ -1,0 +1,35 @@
+Product quantity field should not allow negative numbers
+
+To Do
+
+Improve Bug
+
+Description
+
+Priority: Medium
+
+ Severity:Low
+
+Summary: User is able to provide negative product quantity . At the checkout the negative is commited and the values becomes positive.
+
+Steps to Reproduce : 
+
+1.Go to the page : automationpractice.com 
+
+2.Enter -199 quantity into Quantity field 
+
+3.Click add to cart button
+
+Expected Result :
+
+Quantity field should not allow numbers below 1 and should allow only whole numbers 
+
+Actual Results : User was abble to add a negative number to quantity field and initiate add to cart.
+
+Environment: 
+
+Production environment: version 1.20
+
+Browser: Chrome Version 145.0.7632.119 (Official Build) (64-bit)
+
+Screenshot 2026-03-04 225720.png 
