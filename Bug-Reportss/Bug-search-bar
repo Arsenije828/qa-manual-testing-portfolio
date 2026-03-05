@@ -1,0 +1,31 @@
+Title:
+Search returns "No results found" for existing products when searching "Laptop"
+
+Summary:
+When the user searches for the keyword "Laptop", the system displays the message "No results found" even though products containing the word "Laptop" exist in the database.
+
+Environment:
+Chrome 145.0.7632.160 (64-bit)
+Windows 10
+
+Severity: Major
+Priority: High (P0)
+
+Steps to Reproduce:
+
+Open homepage
+
+Click on the search bar
+
+Type "Laptop"
+
+Press Enter
+
+Expected Result:
+The system should display all products containing the word "Laptop".
+
+Actual Result:
+The system displays the message "No results found".
+
+Attachment:
+Screenshot attached for reference.
