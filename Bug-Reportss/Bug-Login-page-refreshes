@@ -1,0 +1,24 @@
+Title:
+Login page refreshes and does not display error message after failed login
+
+Environment:
+Windows 10, Chrome v142.0
+
+Steps to reproduce:
+
+Go to the login page
+
+Enter test@test.com in the email field
+
+Enter 123 in the password field
+
+Click the Login button
+
+Expected result:
+An error message "Invalid email or password" should appear and the page should not refresh.
+
+Actual result:
+The page refreshes and no error message is displayed.
+
+Severity: High
+Priority: Medium
